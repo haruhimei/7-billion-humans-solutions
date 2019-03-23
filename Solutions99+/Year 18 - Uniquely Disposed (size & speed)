@@ -1,0 +1,12 @@
+-- 7 Billion Humans (2214M) --
+-- 18: Einmalig entsorgt --
+
+step w
+pickup c
+a:
+if s == worker:
+	step se
+	jump a
+endif
+step s
+giveto s
